@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-essential"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "vue/multi-word-component-names": 0
+    },
+    "ecmaFeatures": { "modules": true }
+}
